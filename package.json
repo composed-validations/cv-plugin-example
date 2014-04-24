@@ -1,0 +1,39 @@
+{
+  "name": "cv-plugin-example",
+  "version": "0.1.0",
+  "description": "A awesome example plugin",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "browser": "lib/index.coffee",
+  "scripts": {
+    "test": "./node_modules/.bin/barrier $(find test -name '*_test.coffee')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:djalmaaraujo/composed-validations-plugin-example.git"
+  },
+  "keywords": [
+    "composed",
+    "validations",
+    "plugin",
+    "example",
+    "validator"
+  ],
+  "author": "Djalma Araujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djalmaaraujo/composed-validations-plugin-example/issues"
+  },
+  "homepage": "https://github.com/djalmaaraujo/composed-validations-plugin-example",
+  "devDependencies": {
+    "barriertest": "~0.4.1",
+    "composed-validations": "~0.4.0"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
