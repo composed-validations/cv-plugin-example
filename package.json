@@ -3,14 +3,9 @@
   "version": "0.0.1",
   "description": "A awesome example plugin",
   "main": "index.js",
-  "browserify": {
-    "transform": [
-      "coffeeify"
-    ]
-  },
-  "browser": "lib/index.coffee",
+  "browser": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/barrier $(find test -name '*_test.coffee')"
+    "test": "./node_modules/.bin/barrier $(find test -name '*_test.js')"
   },
   "repository": {
     "type": "git",
@@ -32,8 +27,5 @@
   "devDependencies": {
     "barriertest": "~0.4.1",
     "composed-validations": "~0.4.0"
-  },
-  "dependencies": {
-    "coffee-script": "~1.7.1"
   }
 }
