@@ -1,7 +1,7 @@
 Example Plugin for Composed Validations Library
 ==============================
 
-[![Build Status](https://drone.io/github.com/composed-validations/composed-validations-plugin-example/status.png)](https://drone.io/github.com/composed-validations/composed-validations-plugin-example/latest)
+[![Build Status](https://drone.io/github.com/composed-validations/cv-plugin-example/status.png)](https://drone.io/github.com/composed-validations/cv-plugin-example/latest)
 
 This is a example plugin. Clone this repo and create your own plugin for the composed validations library.
 
