@@ -1,6 +1,6 @@
 {
   "name": "cv-plugin-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A awesome example plugin",
   "main": "index.js",
   "browser": "lib/index.js",
