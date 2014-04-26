@@ -26,6 +26,6 @@
   "homepage": "https://github.com/composed-validations/composed-validations-plugin-example",
   "devDependencies": {
     "barriertest": "~0.4.1",
-    "composed-validations": "~0.4.0"
+    "composed-validations": "~0.7.1"
   }
 }
